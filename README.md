@@ -14,15 +14,15 @@ features selection applied in weka using Information Gain (IG) and SubsEval clas
 # parameter tuning :
 we use grid search method: in random forest the best parameters are {'bootstrap': True, 'criterion': 'gini', 'max_depth': 5, 'n_estimators': 1000}. Secondly, in KNN the best parameters are {'algorithm': 'auto', 'n_neighbors': 50}.Thirdly, in decision tree the best parameters are {'criterion': 'gini', 'max_depth': 8}. Fourthly, In SVM the best parameters are {'Kernal': ‘poly’, ‘C’: 10}. Fifthly, after applied grid search with boosting with some parameters it gives less accuracy than default. Finally, we integrate the best parameters in voting algorithm.
 # Result :
-Model	Accuracy
-Random forest	0.794
-SVM	0.799
-Logistic regression	0.797
-Decision tree	0.776
-Naive Bayes	0.727
-KNN	0.797
-Voting	0.794
-XGboost	0.802
+Model	Accuracy :
+- Random forest	0.794
+- SVM	0.799
+- Logistic regression	0.797
+- Decision tree	0.776
+- Naive Bayes	0.727
+- KNN	0.797
+- Voting	0.794
+- XGboost	0.802
 # interpretation :
 One factor behind the success of XGBoost is the algorithmic optimizations, it uses a novel tree learning algorithm . Additionally, SVM gives similar accuracy to XGboost due to its power in dealing with high-dimensional feature space and kernel trick. 
 Additional view point, the company may build an expensive retention program such hiring sales reps to contact each possible churner, they may go with logistic regression model which gives a relative high accuracy with 79 %, so the company could deal only with the customers who have high probability to churn since the logistic regression gives a probabilistic interpretation prediction for each customer.
