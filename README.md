@@ -1,6 +1,6 @@
 # churn-prediction-with-comperhensve-cleaning-and-diffrent-ML-models
 # Introduction :
-Strong competition in the field of telecommunication market has lead to a significant drop in the revenues for some companies. Many operators tend to use a large investment to keep their current customers to maintain a beneficial competition. One of the risks is customer jumping to another competitors which is known as customer loss or churn.this project done with the cooapration of my team: eman, hajer and malak.
+Strong competition in the field of telecommunication market has lead to a significant drop in the revenues for some companies. Many operators tend to use a large investment to keep their current customers to maintain a beneficial competition. One of the risks is customer jumping to another competitors which is known as customer loss or churn.this project done with the cooapration of my team: eman, hajer and malak " the work originally written as reserch paper". 
 # Churn prediction :
 In machine learning, churn prediction considered as supervised problem where the dataset has a label for each customer instance whether churn or not. To solve this problem we need a customers historical profile and this dataset obtained from IBM Sample Data Sets for customer retention programs
 # ML model used :
