@@ -10,7 +10,7 @@ Random forest, SVM, Logistic regression, Decision tree, Naive Bayesian, KNN, Vot
 - Data quality : we deal with, Missing values , Irregular Cardinality and Outliers.
 - Data processing : we deal with, Measuring Correlation, Normalization, Binnig and Sampling.
 # feature selection :
-
+features selection applied in weka using Information Gain (IG) and SubsEval classifier are the algorithms 
 # parameter tuning :
 we use grid search method: in random forest the best parameters are {'bootstrap': True, 'criterion': 'gini', 'max_depth': 5, 'n_estimators': 1000}. Secondly, in KNN the best parameters are {'algorithm': 'auto', 'n_neighbors': 50}.Thirdly, in decision tree the best parameters are {'criterion': 'gini', 'max_depth': 8}. Fourthly, In SVM the best parameters are {'Kernal': ‘poly’, ‘C’: 10}. Fifthly, after applied grid search with boosting with some parameters it gives less accuracy than default. Finally, we integrate the best parameters in voting algorithm.
 # Result :
